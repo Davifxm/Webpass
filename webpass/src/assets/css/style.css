@@ -1,0 +1,239 @@
+body{
+background-color: #0f172a;
+    color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+.começo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background-color: #1e293b;
+    padding: 20px 5%;
+    border-radius: 8px;
+    margin: 20px;
+}
+.logo{
+
+font-size: 22px;
+font-weight: bold
+
+}
+.azul{
+    color: #3b82f6;
+}
+.verde{
+    color: #22c55e;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+button:hover {
+    opacity: 0.8;
+}
+.btnanu{
+
+background-color: #3b82f6; color: white;
+
+}
+.btncar {
+     background-color: #22c55e; color: #0f172a; 
+}
+.conteudoinicial{
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+.conteudoinicial h1{
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+.principal{
+padding: 20px 5%;
+}
+.titulovitri{
+  color: #22c55e;
+  border-bottom: 2px solid #1e293b;
+  padding-bottom:  10px
+}
+.vitrine{
+  display: flex;
+  flex-wrap: wrap;
+    gap: 20px;
+  margin-top: 20px;
+}
+
+.conteinerdoeven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+ 
+}
+.formanun{
+
+background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.tituloanun{
+    color: #22c55e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.secao h2{
+    color: #3b82f6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.secao input{
+
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: white;
+
+
+}
+
+.infoshow {
+    display: flex;
+    gap: 15px;          
+    margin-bottom: 15px;
+    width: 100%;
+}
+.infoshow input {
+    flex: 1;         
+    width: 0;          
+    margin-bottom: 0;   
+}
+
+.btn-anunciar{
+
+    background-color: #3b82f6;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.bloco-taxas {
+    background-color: #1e293b;
+    border-left: 4px solid #3b82f6;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.titulo-taxas {
+    color: #3b82f6;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.bloco-taxas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bloco-taxas li {
+    color: #f8fafc;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.aviso-taxa {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 10px;
+}
+
+.btn-anunciar:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+
+.contcar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; 
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.coluna-dados {
+    flex: 2;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.infocom {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.infocom label {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.infocom input, .pagamento select {
+    padding: 12px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    color: white;
+    width: 100%;
+}
+
+
+.card-resumo {
+    flex: 1;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 25px;
+    min-width: 320px;
+}
+
+.linha-total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-top: 2px dashed #334155;
+    margin-top: 20px;
+}
+
+.preco-destaque {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
