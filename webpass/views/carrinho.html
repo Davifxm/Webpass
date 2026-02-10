@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPass - Carrinho</title>
+    <link rel="stylesheet" href="../src/assets/css/style.css">
+</head>
+<body>
+    <header class="começo">
+        <div class="logo"><span class="azul">WEB</span> <span class="verde">PASS</span></div>
+        <div class="btnini"><a href="../index.html"><button class="btncar">VOLTAR</button></a></div>
+    </header>
+   <main class="contcar">
+     <section class="coluna de dados">
+        <h2 class="tituloanun">Finalizar Compra</h2>
+      <div class="infocom">
+        <label for="nome-comprador">Nome do Comprador:</label>
+        <input type="text" id="nome-comprador" placeholder="Digite seu nome completo">
+
+        <label for="cpf-comprador">CPF (Apenas números):</label>
+        <input type="text" id="cpf-comprador" placeholder="Digite seu CPF">
+
+        <label for="telefone-comprador">Telefone de Contato:</label>
+        <input type="tel" id="telefone-comprador" placeholder="Digite seu telefone">
+
+         <label>Idade</label>
+         <input type="number" id="idade-comprador" placeholder="Ex: 18">
+      </div>
+
+      <div class="pagamento">
+       <h3> forma de pagamento</h3>
+       <select name="forma-pagamento" id="forma-pagamento">
+        <option value="cartao">Cartão de Crédito/ debito</option>
+        <option value="pix">chave: 81989041275</option>
+       </select>
+    
+      </div>
+       <a href="meustickets.html"><button onclick="" class="btn-anunciar">Finalizar Compra</button></a>
+     </section>
+      <div class="card-resumo">
+    <h3 class="titulo-resumo">Resumo do Ingresso</h3>
+    
+    <div id="detalhes-ingresso" class="detalhes-box">
+        <p>Aguardando seleção...</p>
+    </div>
+
+    <div class="linha-total">
+        <span>Total a pagar:</span>
+        <span id="valor-total" class="preco-destaque">R$ 0,00</span>
+    </div>
+</div>
+
+   </main>
+    <script src="../src/assets/js/app.js"></script>
+</body>
+</html>

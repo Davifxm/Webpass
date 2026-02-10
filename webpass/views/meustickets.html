@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPass - Meus Tickets</title>
+    <link rel="stylesheet" href="../src/assets/css/style.css">
+</head>
+<body>
+    <header class="começo">
+        <div class="logo">
+            <span class="azul">WEB</span> <span class="verde">PASS</span>
+            <span class="subtitulo"> - Meus Tickets</span>
+        </div>
+    </header>
+
+    <main class="conteiner-ticket">
+        <div class="ticket">
+            <div class="ticket-topo">
+                <span class="confirmado">CONFIRMADO</span>
+                <h1 class="codigo-ticket">#WBP-8812</h1>
+            </div>
+
+            <div class="ticket-info">
+                <h2 class="nome-evento">NOME DO EVENTO AQUI</h2>
+                <p class="info-evento">Data: </p>
+                <p class="info-evento">Local: </p>
+            </div>
+
+            <div class="divisor"></div>
+
+            <div class="ticket-base">
+                <p class="titular">Titular: Seu Nome Completo</p>
+            </div>
+        </div>
+
+        <div class="acoes-ticket">
+            <button onclick="window.print()" class="btn-imprimir">IMPRIMIR INGRESSO</button>
+            <a href="../index.html" class="link-voltar">Voltar ao Início</a>
+        </div>
+    </main>
+</body>
+</html>

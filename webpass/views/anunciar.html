@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/assets/css/style.css">
+    <title>Webpass - Anunciar</title>
+</head>
+<body>
+    <header class="começo"> 
+        <div class="logo">
+            <span class="azul">WEB</span> <span class="verde">PASS</span>
+        </div>
+        <div class="btnini">
+            <a href="carrinho.html"><button class="btncar">🛒 CARRINHO</button></a>
+        </div>
+    </header>
+
+    <main class="conteinerdoven">
+        <form id="form-anunciar" action="../index.html" method="GET" class="formanun">
+            <h2 class="tituloanun">Anuncie seu Show!</h2>
+            
+            <div class="secao">
+                <h3>1. Seus Dados (Vendedor)</h3>
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="text" placeholder="CPF ou CNPJ (Apenas números)" required>
+                <input type="tel" placeholder="Telefone de Contato" required> 
+            </div>
+            
+            <hr class="separador">
+
+            <div class="secao">
+                <h2>Informações do evento</h2>
+                <input type="text" id="nome-show" name="nome" placeholder="Nome do Show" required>
+                
+                <div class="infoshow">
+                    <input type="date" id="data-show" required>
+                    <input type="time" id="hora-show" required>
+                </div>
+
+                <input type="text" id="local-show" name="local" placeholder="Local do Evento" required>
+                
+                <div class="infoshow">
+                    <input type="number" id="idade-minima" placeholder="Idade Mínima" min="0" required>
+                    <input type="number" id="preco-show" name="preco" placeholder="Preço (R$)" step="0.01" required>
+                    <input type="number" id="quantidade-ingressos" placeholder="Quantidade de Ingressos" min="1" required>
+                </div>
+            </div>
+
+            <div class="bloco-taxas">
+                <p class="titulo-taxas">Taxas de Serviço:</p>
+                <ul>
+                    <li>Taxa do Vendedor: 15% (retida no pagamento)</li>
+                    <li>Taxa do Comprador: 12% (aplicada na compra)</li>
+                </ul>
+                <p class="aviso-taxa">* Ao anunciar, você concorda com os termos da WebPass.</p>
+            </div>
+
+            <button type="button" onclick="" class="btn-anunciar">Anunciar Show</button>
+        </form>
+    </main>
+
+    <script src="../src/assets/js/app.js"></script>
+</body>
+</html>
